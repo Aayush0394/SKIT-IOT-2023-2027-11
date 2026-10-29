@@ -1,4 +1,3 @@
-"""Admin-oriented reports for overdue inventory loans. Demo fee calculation only."""
 from datetime import timedelta
 from fastapi import APIRouter, Depends, Query
 from sqlalchemy import select
